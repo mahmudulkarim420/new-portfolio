@@ -1,20 +1,11 @@
-import { Outlet } from 'react-router';
-
-
+import { Outlet } from "react-router";
 
 const Root = () => {
-
-  
-    return (
-        <div className='max-w-7xl mx-auto'>
-            
-            <Outlet />
-            
-
-    
-        
-        </div>
-    );
+  return (
+    <div>
+      <Outlet />
+    </div>
+  );
 };
 
 export default Root;
